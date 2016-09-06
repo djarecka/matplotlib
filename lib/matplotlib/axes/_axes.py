@@ -5226,7 +5226,6 @@ or tuple of floats
     def pcolor(self, *args, **kwargs):
         """
         Create a pseudocolor plot of a 2-D array.
-
         EXTENDED TODO
 
         *X* and *Y*, if given, specify the (*x*, *y*) coordinates of
@@ -5272,8 +5271,8 @@ or tuple of floats
             Y coordinates of the colored quadrilaterals.
         cmap : `~matplotlib.colors.Colormap`, optional, default: None
             If `None`, default to rc settings.
-        norm :`matplotlib.colors.Normalize`, optional, default: None 
-            An instance is used to scale luminance data to 0,1. 
+        norm :`matplotlib.colors.Normalize`, optional, default: None
+            An instance is used to scale luminance data to 0,1.
             If `None`, defaults to :func:`normalize`.
         vmin, vmax : scalar, optional, default: None
             `vmin` and `vmax` are used in conjunction with `norm` to
@@ -5295,7 +5294,7 @@ or tuple of floats
             An mpl color or sequence of colors will set the edge color
         alpha : scalar, optional, default: None
             The alpha blending value, between 0 (transparent) and 1 (opaque).
-        snap: bool, optional, default: TODO
+        snap : bool, optional, default: TODO
             Whether to snap the mesh to pixel boundaries.
 
 
