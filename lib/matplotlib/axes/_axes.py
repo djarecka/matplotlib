@@ -5352,7 +5352,6 @@ or tuple of floats
 
         %(PolyCollection)s
 
-        
 
         The default *antialiaseds* is False if the default
         *edgecolors*="none" is used.  This eliminates artificial lines
