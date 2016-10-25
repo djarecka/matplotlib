@@ -5245,6 +5245,36 @@ or tuple of floats
           pcolor(C, **kwargs)
           pcolor(X, Y, C, **kwargs)
 
+        pcolor can be very slow for large arrays; consider
+          using the similar but much faster
+          :func:`~matplotlib.pyplot.pcolormesh` instead.
+
+        Parameters
+        ----------
+        C : array_like
+            An array of color values.
+        X, Y : array_like, optional
+          If given, specify the (x, y) coordinates of
+          the colored quadrilaterals; the quadrilateral for C[i,j] has
+          corners at::
+            (X[i,   j],   Y[i,   j]),
+            (X[i,   j+1], Y[i,   j+1]),
+            (X[i+1, j],   Y[i+1, j]),
+            (X[i+1, j+1], Y[i+1, j+1]).
+          Ideally the dimensions of `X` and `Y` should be one greater
+          than those of `C`; if the dimensions are the same, then the
+          last row and column of `C` will be ignored.
+          Note that the column index corresponds to the
+          x-coordinate, and the row index corresponds to y; for
+          details, see the :ref:`Grid Orientation
+          <axes-pcolor-grid-orientation>` section below.
+          If either or both of `X` and `Y` are 1-D arrays or column vectors,
+          they will be expanded as needed into the appropriate 2-D arrays,
+          making a rectangular grid.
+
+
+
+
         Return value is a :class:`matplotlib.collections.Collection`
         instance.
 
