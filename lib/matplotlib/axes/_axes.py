@@ -5251,8 +5251,7 @@ or tuple of floats
 
         Parameters
         -----------
-        C : array_like
-            An array of color values.
+
 
         Return value is a :class:`matplotlib.collections.Collection`
         instance.
