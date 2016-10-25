@@ -5240,12 +5240,6 @@ or tuple of floats
         """
         Create a pseudocolor plot of a 2-D array.
 
-        .. note::
-
-            pcolor can be very slow for large arrays; consider
-            using the similar but much faster
-            :func:`~matplotlib.pyplot.pcolormesh` instead.
-
         Call signatures::
 
           pcolor(C, **kwargs)
