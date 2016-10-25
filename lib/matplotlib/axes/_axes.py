@@ -5249,6 +5249,10 @@ or tuple of floats
           using the similar but much faster
           :func:`~matplotlib.pyplot.pcolormesh` instead.
 
+        Parameters
+        -----------
+        C : array_like
+            An array of color values.
 
         Return value is a :class:`matplotlib.collections.Collection`
         instance.
