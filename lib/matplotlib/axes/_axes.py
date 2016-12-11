@@ -5303,7 +5303,7 @@ or tuple of floats
 
         Other Parameters
         -------
-        kwargs : `~matplotlib.collections.PolyCollection` 
+        kwargs : `~matplotlib.collections.PolyCollection`
 
 
         The default `antialiaseds` is False if the default
