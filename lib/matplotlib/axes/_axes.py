@@ -5233,7 +5233,7 @@ or tuple of floats
 
         pcolor can be very slow for large arrays; consider
           using the similar but much faster
-          :func:`~matplotlib.pyplot.pcolormesh` instead.
+
 
         Parameters
         ----------
@@ -5262,10 +5262,10 @@ or tuple of floats
           they will be expanded as needed into the appropriate 2-D arrays,
           making a rectangular grid.
 
-        cmap : `~matplotlib.colors.Colormap`, optional, default: None
+        cmap : optional, default: None
             If `None`, default to rc settings.
 
-        norm :`matplotlib.colors.Normalize`, optional, default: None
+        norm : optional, default: None
             An instance is used to scale luminance data to (0, 1).
             If `None`, defaults to :func:`normalize`.
 
@@ -5299,11 +5299,11 @@ or tuple of floats
 
         Returns
         -------
-        collection : `matplotlib.collections.Collection`
+        collection : 
 
         Other Parameters
         -------
-        kwargs : `~matplotlib.collections.PolyCollection`
+        kwargs : 
 
 
         The default `antialiaseds` is False if the default
