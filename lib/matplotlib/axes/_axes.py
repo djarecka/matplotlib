@@ -5286,9 +5286,9 @@ or tuple of floats
               `shading`='flat' -- `edgecolors`='none'
               `shading`='faceted'  -- `edgecolors`='k'
 
-        edgecolors : {None, ``'none'``, color, color sequence}
+        edgecolors : {None, color, color sequence}
             If `None`, the rc setting is used by default.
-            If ``'none'``, edges will not be visible.
+            If , edges will not be visible.
             An mpl color or sequence of colors will set the edge color
 
         alpha : scalar, optional, default: None
