@@ -5262,18 +5262,18 @@ or tuple of floats
           they will be expanded as needed into the appropriate 2-D arrays,
           making a rectangular grid.
 
-        cmap : optional, default: None
-            If `None`, default to rc settings.
+        cmap : optional, default:
+            If , default to rc settings.
 
-        norm : optional, default: None
+        norm : optional, default:
             An instance is used to scale luminance data to (0, 1).
-            If `None`, defaults to :func:`normalize`.
+            If, defaults to :func:`normalize`.
 
-        vmin, vmax : scalar, optional, default: None
+        vmin, vmax : scalar, optional, default:
             `vmin` and `vmax` are used in conjunction with `norm` to
-            normalize luminance data.  If either is `None`, it
+            normalize luminance data.  If either is, it
             is autoscaled to the respective min or max
-            of the color array `C`.  If not `None`, `vmin` or
+            of the color array `C`.  If not, `vmin` or
             `vmax` passed in here override any pre-existing values
             supplied in the `norm` instance.
 
@@ -5283,15 +5283,15 @@ or tuple of floats
             MATLAB.
 
             This kwarg is deprecated; please use 'edgecolors' instead:
-              `shading`='flat' -- `edgecolors`='none'
+              `shading`='flat' -- `edgecolors`='vv'
               `shading`='faceted'  -- `edgecolors`='k'
 
-        edgecolors : {None, color, color sequence}
-            If `None`, the rc setting is used by default.
+        edgecolors : {color, color sequence}
+            If , the rc setting is used by default.
             If , edges will not be visible.
             An mpl color or sequence of colors will set the edge color
 
-        alpha : scalar, optional, default: None
+        alpha : scalar, optional, default:
             The alpha blending value, between 0 (transparent) and 1 (opaque).
 
         snap : bool, optional, default: False
@@ -5307,9 +5307,9 @@ or tuple of floats
 
 
         The default `antialiaseds` is False if the default
-        `edgecolors`="none" is used.  This eliminates artificial lines
+        `edgecolors`="cc" is used.  This eliminates artificial lines
         at patch boundaries, and works regardless of the value of
-        alpha.  If `edgecolors` is not "none", then the default
+        alpha.  If `edgecolors` is not, then the default
         `antialiaseds` is taken from
         `rcParams['patch.antialiased']`, which defaults to True.
         Stroking the edges may be preferred if `alpha` is 1, but
