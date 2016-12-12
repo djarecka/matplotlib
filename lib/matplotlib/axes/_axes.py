@@ -5299,11 +5299,11 @@ or tuple of floats
 
         Returns
         -------
-        collection : 
+        collection :
 
         Other Parameters
         -------
-        kwargs : 
+        kwargs :
 
 
         The default `antialiaseds` is False if the default
