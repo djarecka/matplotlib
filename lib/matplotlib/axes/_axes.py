@@ -5301,19 +5301,6 @@ or tuple of floats
         -------
         collection :
 
-        Other Parameters
-        -------
-        kwargs :
-
-
-        The default `antialiaseds` is False if the default
-        `edgecolors`="cc" is used.  This eliminates artificial lines
-        at patch boundaries, and works regardless of the value of
-        alpha.  If `edgecolors` is not, then the default
-        `antialiaseds` is taken from
-        `rcParams['patch.antialiased']`, which defaults to True.
-        Stroking the edges may be preferred if `alpha` is 1, but
-        will cause artifacts otherwise.
 
         See Also
         --------
